@@ -13,17 +13,6 @@ This project uses the YOLO (You Only Look Once) object detection model to predic
 2. Image Processing: The image is processed using the YOLO model, which predicts bounding boxes and labels for any animals detected in the image.
 3. View Results: After processing, the user can see the detected animal(s) and their corresponding bounding boxes drawn on the image.
 
-# Project Structure
-src/
-├── components/         # Reusable components
-│   └── predictAnimal/  # Each component
-│       └──UploadImage.tsx
-├── services/           # Service calls (API interactions)
-│   └── imageService.ts
-├── styles.css
-├── App.tsx             # Root component
-└── Main.tsx           # Entry point
-
 # Prerequisites
 Make sure you have the following installed:
 
